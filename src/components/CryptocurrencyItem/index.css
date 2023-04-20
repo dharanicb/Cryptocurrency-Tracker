@@ -1,0 +1,37 @@
+/* Write your CSS code here */
+.currency-container {
+  background-color: transparent;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Roboto';
+  margin: 7px;
+}
+.coin-type {
+  display: flex;
+  margin: 5px;
+}
+.income-type {
+  display: flex;
+  margin: 5px;
+}
+.coin-logo {
+  height: 40px;
+  margin: 5px;
+}
+/* .usd {
+  margin-right: 75px;
+  text-align: center;
+} */
+.coin-name {
+  margin-left: 10px;
+}
+.usd-value {
+  margin-right: 75px;
+}
+@media screen and (max-width: 576px) {
+  .usd-value {
+    margin-right: 40px;
+  }
+}

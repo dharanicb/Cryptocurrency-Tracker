@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #000000;
+  height: 100vh;
+  padding: 10px;
+}
+.crypto-currency {
+  width: 60%;
+}
+.crypto-currency-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.crypto-grapy {
+  font-family: 'Roboto';
+  font-size: 39px;
+  margin: 6px;
+  margin-top: 17px;
+  color: #00e7ff;
+  text-align: center;
+}

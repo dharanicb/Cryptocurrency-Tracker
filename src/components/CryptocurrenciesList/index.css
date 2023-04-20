@@ -1,0 +1,31 @@
+/* Write your CSS code here */
+.column-name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 23px;
+  font-weight: 400;
+  margin: 6px;
+}
+.list-item-container {
+  border-color: #00e7ff;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 9px;
+  width: 70%;
+}
+.list-item-table-container {
+  background-color: #092e33;
+  display: flex;
+  justify-content: space-between;
+  padding: 13px;
+}
+.income-item-type {
+  display: flex;
+}
+.align-type {
+  margin-right: 75px;
+  text-align: center;
+}
+.coin-type-name {
+  margin-left: 45px;
+}
