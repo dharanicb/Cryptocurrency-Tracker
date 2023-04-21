@@ -50,9 +50,11 @@ class CryptoCurrencyTracker extends Component {
             className="crypto-currency"
           />
         </div>
-        <div className="crypto-currency-img" data-testid="loader">
+        <div className="crypto-currency-img">
           {isLoading ? (
-            <Loader type="Rings" color="#ffffff" height={80} width={80} />
+            <div data-testid="loader">
+              <Loader type="Rings" color="#ffffff" height={80} width={80} />
+            </div>
           ) : (
             <CryptoCurrenciesList cryptoCurrencyData={cryptoCurrencyData} />
           )}
